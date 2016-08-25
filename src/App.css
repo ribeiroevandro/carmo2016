@@ -32,7 +32,8 @@ body {
 
 .header-title {
   width: 115px;
-  padding-top: .7em;
+  top: -6px;
+  position: relative;
 }
 
 .header-menu {
@@ -42,14 +43,14 @@ body {
 
 .header {
   height: 100px;
-  background: #0b6e93;
+  background: #274472;
 }
 
 .header-logo {
-  background: url('http://www.imarui.sc.gov.br/thumbs/642/1035164_resize_1000_.png') no-repeat;
+  background: url('img/brasao.png') no-repeat;
   background-size: 100%;
   max-width: 4em;
-  height: 3em;
+  height: 5em;
   text-indent: -9999em;
 }
 
