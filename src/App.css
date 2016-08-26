@@ -195,6 +195,19 @@ body {
   border-bottom: 1px solid #ccc;
 }
 
+.images {
+  background: url("img/apple-touch-icon.png");
+  background: url("img/apple-touch-icon-57x57.png");
+  background: url("img/apple-touch-icon-72x72.png");
+  background: url("img/apple-touch-icon-76x76.png");
+  background: url("img/apple-touch-icon-114x114.png");
+  background: url("img/apple-touch-icon-120x120.png");
+  background: url("img/apple-touch-icon-144x144.png");
+  background: url("img/apple-touch-icon-152x152.png");
+  background: url("img/apple-touch-icon-180x180.png");
+  background: url("img/social-image.jpg");
+}
+
 @keyframes loading {
   0% {
     transform: rotate(0);
