@@ -17,6 +17,9 @@ const Candidate = ({ candidate }) => {
       <p className='candidate-item__partido'>
         {candidate.partido.sigla} – {candidate.nomeColigacao}
       </p>
+      {candidate.st_REELEICAO ?
+        <div className="candidate-item__situcao-wrapper">Eleito</div> : null
+      }
     </li>
   )
 }

@@ -148,6 +148,22 @@ body {
   margin: 0;
 }
 
+.candidate-item__situcao-wrapper {
+  position: absolute;
+  right: 3em;
+  top: 4em;
+  width: 12em;
+  height: 3em;
+  overflow: hidden;
+  border: 1px solid #ddd;
+  text-align: center;
+  line-height: 3em;
+  font-size: 1.5em;
+  background: green;
+  color: #fff;
+  font-weight: bold;
+}
+
 .loading {
   max-width: 800px;
   margin: 3em auto;
